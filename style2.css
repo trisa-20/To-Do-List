@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -12,15 +13,19 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url('bg8.jpg');
 }
 
 .container {
-    background-color: #fff;
+    background-color: #e8d7cd;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px;
+    width: 50%;
+    max-width: 285px;
+    position: fixed;
+    top: 20%;
+    right: 44.4%;
 }
 
 h1 {
@@ -80,10 +85,11 @@ button:hover {
 .task-buttons {
     display: flex;
     gap: 0.5rem;
+    color: white;
 }
 
 .edit-btn, .delete-btn {
-    background-color: #ffc107;
+    background-color: #dbab1c;
     color: white;
     border: none;
     padding: 0.5rem;
@@ -101,4 +107,20 @@ button:hover {
 
 .delete-btn:hover {
     background-color: #c82333;
+}
+
+.note{
+    /* background-color: #e8d7cd;
+    padding: 2rem; 
+    border-radius: 10px;*/
+    color: #895232;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 145%;
+    /* width: 100%; */
+    max-width: 500px; 
+    position: fixed;
+    bottom: 12%;
+    right: 13.4%;
+    
 }
